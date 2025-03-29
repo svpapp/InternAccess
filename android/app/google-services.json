@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965580401811",
+    "project_id": "samarth-vidyapeeth",
+    "storage_bucket": "samarth-vidyapeeth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965580401811:android:3ccb2be448461e6c1e7166",
+        "android_client_info": {
+          "package_name": "test.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA83_GWE0RibVdhVRngjO138owP1RT2dHE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
