@@ -3,7 +3,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import {navigationRef} from '../../navigations/RootNavigation';
 
 const instance = axios.create({
-  baseURL: 'http://192.168.137.1:5001',
+  baseURL: 'http://192.168.1.27:5001',
+  // baseURL: 'http://192.168.137.1:5001',
   // baseURL: 'http://192.168.1.123:5001',
   // baseURL: 'https://demo-ityk.onrender.com',
 

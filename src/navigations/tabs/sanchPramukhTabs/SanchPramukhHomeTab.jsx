@@ -13,6 +13,7 @@ import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import HomeScreenSanchPramukh from '../../../screens/userRole/sanchPramukh/HomeScreenSanchPramukh';
 import UpdateKifScreen from '../../../screens/userRole/anchalPramukh/UpdateKifScreen';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
+import GramsurveyReports from '../../../screens/userRole/sanchPramukh/Reports/GramsurveyReports';
 
 const Stack = createNativeStackNavigator();
 
@@ -43,6 +44,13 @@ const SanchPramukhHomeTab = () => {
           component={UpdateKifScreen}
           options={{
             headerTitle: 'Update KIF',
+          }}
+        />
+        <Stack.Screen
+          name="gramsurveyreports"
+          component={GramsurveyReports}
+          options={{
+            headerTitle: 'Gram Survey Form',
           }}
         />
       </Stack.Navigator>

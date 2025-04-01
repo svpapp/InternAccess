@@ -20,6 +20,18 @@ const HomeScreenSanchPramukh = () => {
             >
               <Text style={{color: 'white', fontSize: 16}}>Update KIF</Text>
             </TouchableOpacity>
+            <TouchableOpacity 
+              style={{
+                backgroundColor: '#007AFF',
+                padding: 15,
+                borderRadius: 8,
+                marginTop: 20,
+                alignItems: 'center'
+              }}
+              onPress={() => navigation.navigate('gramsurveyreports')} 
+            >
+              <Text style={{color: 'white', fontSize: 16}}>Gram Survey Form Report</Text>
+            </TouchableOpacity>
     </View>
   );
 };
